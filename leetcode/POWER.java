@@ -16,4 +16,10 @@ class POWER{
             return false;
         }
     }
+
+    public static void main(String[] args) {
+        POWER p = new POWER();
+        System.out.println(p.isPalindrome(121));  // true
+        System.out.println(p.isPalindrome(123));  // false
+    }
 }
